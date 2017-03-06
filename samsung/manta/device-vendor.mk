@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := manta/BoardConfigPartial.mk
+LOCAL_STEM := manta/device-partial.mk
 
--include vendor/samsung/manta/audience/$(LOCAL_STEM)
--include vendor/samsung/manta/broadcom/$(LOCAL_STEM)
--include vendor/samsung/manta/widevine/$(LOCAL_STEM)
--include vendor/samsung/$(LOCAL_STEM)
+$(call inherit-product-if-exists, vendor/samsung/manta/audience/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/manta/broadcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/manta/widevine/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
