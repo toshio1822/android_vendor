@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/samsung/manta/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/manta/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/manta/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/manta/proprietary/vendor/secapp/00060308060501020000000000000000.tlbin:system/vendor/secapp/00060308060501020000000000000000.tlbin \
     vendor/samsung/manta/proprietary/vendor/secapp/020a0000000000000000000000000000.drbin:system/vendor/secapp/020a0000000000000000000000000000.drbin \
     vendor/samsung/manta/proprietary/vendor/secapp/07060000000000000000000000000000.tlbin:system/vendor/secapp/07060000000000000000000000000000.tlbin \
