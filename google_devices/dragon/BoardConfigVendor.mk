@@ -14,5 +14,5 @@
 
 LOCAL_STEM := dragon/BoardConfigPartial.mk
 
-# -include vendor/google_devices/$(LOCAL_STEM)
+-include vendor/google_devices/$(LOCAL_STEM)
 -include vendor/nvidia/$(LOCAL_STEM)

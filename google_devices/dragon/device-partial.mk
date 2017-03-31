@@ -13,6 +13,6 @@
 # limitations under the License.
 
 # Vendor blob(s) necessary for Dragon hardware
-# PRODUCT_COPY_FILES := \
-#    vendor/google_devices/dragon/proprietary/vendor.img:vendor.img:google \
-#
+PRODUCT_COPY_FILES := \
+    vendor/google_devices/dragon/proprietary/vendor.img:vendor.img:google \
+
