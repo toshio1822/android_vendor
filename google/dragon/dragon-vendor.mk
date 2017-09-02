@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     UserInfoWidget \
     DragonKeyboardFirmwareUpdater \
     GCS \
-    HotwordEnrollment
+    HotwordEnrollmentRT5677
 
 PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/root/vendor/firmware/nouveau/acr_ucode.bin:root/vendor/firmware/nouveau/acr_ucode.bin \
