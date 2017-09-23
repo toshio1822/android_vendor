@@ -13,6 +13,11 @@
 # limitations under the License.
 
 # Samsung blob(s) necessary for Manta hardware
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/manta/proprietary/libstlport.so:system/vendor/lib/libstlport.so \
+    vendor/samsung/manta/proprietary/libstlport.so:system/lib/libstlport.so
+
 PRODUCT_PACKAGES := \
     fimc_is_fw \
     fimc_is_fw2 \
