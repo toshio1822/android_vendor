@@ -16,7 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/libstlport.so:system/vendor/lib/libstlport.so \
-    vendor/samsung/manta/proprietary/libstlport.so:system/lib/libstlport.so
+    vendor/samsung/manta/proprietary/libstlport.so:system/lib/libstlport.so \
+    vendor/samsung/manta/proprietary/libgpsd-compat.so:system/lib/libgpsd-compat.so
 
 PRODUCT_PACKAGES := \
     fimc_is_fw \
