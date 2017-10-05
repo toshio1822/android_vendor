@@ -1,4 +1,0 @@
-require board=flo
-
-require version-bootloader=FLO-04.08
-

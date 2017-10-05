@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/asus/flo/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
