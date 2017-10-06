@@ -20,10 +20,6 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES := \
-    libwvdrm_L1 \
-    libWVStreamControlAPI_L1 \
-    libwvm \
-    libdrmwvmplugin \
     libdrmdecrypt \
     libwvdrmengine
 
