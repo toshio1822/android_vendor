@@ -43,6 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/flo/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/flo/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    vendor/asus/flo/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/asus/flo/proprietary/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/flo/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -51,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
+    vendor/asus/flo/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/asus/flo/proprietary/lib/sensors.flo.so:system/lib/sensors.flo.so \
     vendor/asus/flo/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/asus/flo/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
@@ -74,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/asus/flo/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/asus/flo/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
+    vendor/asus/flo/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/asus/flo/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/asus/flo/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/asus/flo/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
