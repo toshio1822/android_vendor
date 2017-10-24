@@ -103,8 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/asus/flo/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/asus/flo/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/asus/flo/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/asus/flo/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/asus/flo/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/asus/flo/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/asus/flo/proprietary/vendor/firmware/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd \
