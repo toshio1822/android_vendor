@@ -47,3 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/vendor/lib/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/samsung/manta/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/samsung/manta/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/manta/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
+    vendor/samsung/manta/proprietary/vendor/lib/libstlport.so:system/lib/libstlport.so
