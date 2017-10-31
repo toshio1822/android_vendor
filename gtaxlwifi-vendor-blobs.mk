@@ -148,3 +148,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
+
