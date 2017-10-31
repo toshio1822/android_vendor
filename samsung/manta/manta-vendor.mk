@@ -50,4 +50,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
-    vendor/samsung/manta/proprietary/vendor/lib/libstlport.so:system/lib/libstlport.so
+    vendor/samsung/manta/proprietary/vendor/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/samsung/manta/proprietary/vendor/lib/libgpsd-compat.so:system/lib/libgpsd-compat.so
