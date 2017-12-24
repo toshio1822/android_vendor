@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/gtaxlwifi/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/gtaxlwifi/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/gtaxlwifi/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/gtaxlwifi/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/samsung/gtaxlwifi/proprietary/etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
     vendor/samsung/gtaxlwifi/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
@@ -130,14 +129,25 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so 
+
+    #PRODUCT_COPY_FILES += \
+#    vendor/samsung/gtaxllte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/gtaxllte/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/vendor/lib/libprotobuf-cpp-shim.so:system/vendor/lib/libprotobuf-cpp-shim.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
