@@ -1120,4 +1120,5 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     qcrilhook \
-    qti-telephony-common
+    qti-telephony-common \
+    QPerformance
