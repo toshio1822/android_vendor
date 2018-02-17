@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/lib_SoundBooster_ver700.so:system/lib/lib_SoundBooster_ver700.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
