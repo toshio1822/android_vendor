@@ -117,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/samsung/gtaxlwifi/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
@@ -140,6 +139,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so
+
+#     vendor/samsung/gtaxlwifi/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so
