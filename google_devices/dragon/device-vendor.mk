@@ -26,4 +26,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DragonKeyboardFirmwareUpdater \
     GCS \
-    HotwordEnrollmentRT5677
+    HotwordEnrollmentOKGoogleRT5677
