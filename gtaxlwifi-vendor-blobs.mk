@@ -156,6 +156,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/gtaxlwifi/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so
 
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
-
