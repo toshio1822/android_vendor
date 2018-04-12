@@ -152,7 +152,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
 
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so
-
