@@ -156,7 +156,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
 
-PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    vendor/samsung/gtaxllte/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so
-
