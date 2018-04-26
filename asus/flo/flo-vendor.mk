@@ -44,13 +44,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/asus/flo/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/flo/proprietary/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
-    vendor/asus/flo/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/asus/flo/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/asus/flo/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/asus/flo/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/asus/flo/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/asus/flo/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/asus/flo/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    vendor/asus/flo/proprietary/vendor/firmware/vidc.b00:system/vendor/firmware/vidc.b00 \
+    vendor/asus/flo/proprietary/vendor/firmware/vidc.b01:system/vendor/firmware/vidc.b01 \
+    vendor/asus/flo/proprietary/vendor/firmware/vidc.b02:system/vendor/firmware/vidc.b02 \
+    vendor/asus/flo/proprietary/vendor/firmware/vidc.b03:system/vendor/firmware/vidc.b03 \
+    vendor/asus/flo/proprietary/vendor/firmware/vidc.mdt:system/vendor/firmware/vidc.mdt \
+    vendor/asus/flo/proprietary/vendor/firmware/vidc_1080p.fw:system/vendor/firmware/vidc_1080p.fw \
+    vendor/asus/flo/proprietary/vendor/firmware/vidcfw.elf:system/vendor/firmware/vidcfw.elf \
     vendor/asus/flo/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/asus/flo/proprietary/lib/sensors.flo.so:system/lib/sensors.flo.so \
     vendor/asus/flo/proprietary/lib/libAKM.so:system/lib/libAKM.so \
