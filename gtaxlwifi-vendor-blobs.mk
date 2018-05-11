@@ -72,8 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
     vendor/samsung/gtaxlwifi/proprietary/etc/firmware/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/WCNSS_cfg.dat \
     vendor/samsung/gtaxlwifi/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/gtaxlwifi/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/samsung/gtaxlwifi/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
@@ -86,12 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libOpenCv.so:system/lib/libOpenCv.so \
@@ -106,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
@@ -117,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/samsung/gtaxlwifi/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
@@ -134,13 +124,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/firmware/setfile_sr259.bin:system/vendor/firmware/setfile_sr259.bin \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so
+    vendor/samsung/gtaxlwifi/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so
+
+# drm
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so
 
