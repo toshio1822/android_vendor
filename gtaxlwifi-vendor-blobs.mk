@@ -128,7 +128,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
