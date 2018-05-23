@@ -19,6 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/libstlport.so:system/lib/libstlport.so \
     vendor/samsung/manta/proprietary/libgpsd-compat.so:system/lib/libgpsd-compat.so
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so
+
 PRODUCT_PACKAGES := \
     fimc_is_fw \
     fimc_is_fw2 \
