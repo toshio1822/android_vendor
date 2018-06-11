@@ -55,3 +55,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/manta/proprietary/system/lib/libcsc.so:system/lib/libcsc.so \
+    vendor/samsung/manta/proprietary/system/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    vendor/samsung/manta/proprietary/system/lib/libexynosutils.so:system/lib/libexynosutils.so \
+    vendor/samsung/manta/proprietary/system/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so
+
