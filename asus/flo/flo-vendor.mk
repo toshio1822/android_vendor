@@ -166,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/asus/flo/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/asus/flo/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/asus/flo/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/asus/flo/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
     vendor/asus/flo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/asus/flo/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
