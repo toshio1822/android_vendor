@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/vendor/firmware/setfile.bin:system/vendor/firmware/setfile.bin \
     vendor/samsung/manta/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/manta/proprietary/vendor/lib/libbccArm.so:system/vendor/lib/libbccArm.so \
-    vendor/samsung/manta/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/manta/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
     vendor/samsung/manta/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
     vendor/samsung/manta/proprietary/vendor/lib/libstagefright_hdcp.so:system/vendor/lib/libstagefright_hdcp.so \
