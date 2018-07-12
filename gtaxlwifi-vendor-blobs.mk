@@ -136,6 +136,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
