@@ -198,3 +198,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/asus/flo/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/asus/flo/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+PRODUCT_COPY_FILES += \
+    vendor/asus/flo/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/asus/flo/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/asus/flo/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so
