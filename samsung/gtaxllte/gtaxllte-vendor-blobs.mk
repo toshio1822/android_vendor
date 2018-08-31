@@ -149,5 +149,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so
+
 #    vendor/samsung/gtaxllte/proprietary/lib/libril.so:system/lib/libril.so \
 #    vendor/samsung/gtaxllte/proprietary/bin/rild:system/bin/rild \

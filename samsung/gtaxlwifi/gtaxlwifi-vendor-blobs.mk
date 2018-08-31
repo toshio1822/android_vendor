@@ -144,5 +144,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so
+
 #    vendor/samsung/gtaxlwifi/proprietary/lib/libril.so:system/lib/libril.so \
 #    vendor/samsung/gtaxlwifi/proprietary/bin/rild:system/bin/rild \
