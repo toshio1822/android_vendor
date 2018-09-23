@@ -107,8 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/gtaxllte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/gtaxllte/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/samsung/gtaxllte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/gtaxllte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/gtaxllte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
     vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
