@@ -104,8 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
