@@ -96,8 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsomp.so:system/lib/libsomp.so \
