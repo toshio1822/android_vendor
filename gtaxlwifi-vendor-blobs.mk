@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/lib_SoundBooster_ver700.so:system/lib/lib_SoundBooster_ver700.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libtonyalsa.so:system/lib/libtonyalsa.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
