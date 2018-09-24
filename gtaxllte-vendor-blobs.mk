@@ -140,3 +140,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so
+
