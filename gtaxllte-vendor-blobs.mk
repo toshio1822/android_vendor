@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/gtaxllte/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/gtaxllte/proprietary/bin/gpsd:system/bin/gpsd \
-    vendor/samsung/gtaxllte/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/av_performance.conf:system/etc/bluetooth/av_performance.conf \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/samsung/gtaxllte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
@@ -112,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/gtaxllte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/gtaxllte/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    vendor/samsung/gtaxllte/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/gtaxllte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -128,7 +126,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/firmware/setfile_sr259.bin:system/vendor/firmware/setfile_sr259.bin \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
-    vendor/samsung/gtaxllte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so
+    vendor/samsung/gtaxllte/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
+    vendor/samsung/gtaxllte/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter
 
 # camera
 PRODUCT_COPY_FILES += \
