@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/gtaxlwifi/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/lib_SamsungRec_V05001.so:system/lib/lib_SamsungRec_V05001.so \
@@ -166,6 +167,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/hw/sensors.universal7870.so:system/lib/hw/sensors.universal7870.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:system/vendor/bin/hw/android.hardware.sensors@1.0-service \
     vendor/samsung/gtaxlwifi/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc
+
+# gps
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/bin/hw/android.hardware.gnss@1.0-service:system/vendor/bin/hw/android.hardware.gnss@1.0-service \
+    vendor/samsung/gtaxlwifi/proprietary/vendor/etc/init/android.hardware.gnss@1.0-service.rc:system/vendor/etc/init/android.hardware.gnss@1.0-service.rc
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
