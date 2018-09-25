@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsamsungSoundbooster_plus.so:system/lib/libsamsungSoundbooster_plus.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
@@ -155,7 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/libprotobuf-cpp-fooo.so:system/lib64/libprotobuf-cpp-fooo.so \
-    vendor/samsung/gtaxlwifi/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
     vendor/samsung/gtaxlwifi/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so
 
 # omx stuff
