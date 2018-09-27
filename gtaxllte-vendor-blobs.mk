@@ -143,6 +143,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/lib/hw/camera.universal7870.so:system/lib/hw/camera.universal7870.so \
     vendor/samsung/gtaxllte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxllte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    vendor/samsung/gtaxllte/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
+    vendor/samsung/gtaxllte/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so
+
 # drm
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
