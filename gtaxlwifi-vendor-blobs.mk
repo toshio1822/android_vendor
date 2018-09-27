@@ -119,6 +119,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so
+
+PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/gtaxlwifi/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/gtaxlwifi/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
