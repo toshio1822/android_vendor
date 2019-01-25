@@ -32,6 +32,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/system/lib/libexynosutils.so:system/lib/libexynosutils.so \
     vendor/samsung/manta/proprietary/system/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/manta/proprietary/system/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/samsung/manta/proprietary/system/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/samsung/manta/proprietary/system/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so
+
 PRODUCT_PACKAGES := \
     fimc_is_fw \
     fimc_is_fw2 \
