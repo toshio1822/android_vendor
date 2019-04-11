@@ -31,9 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
     vendor/samsung/gtaxllte/proprietary/etc/firmware/utfbd32.bin:system/etc/firmware/utfbd32.bin \
-    vendor/samsung/gtaxllte/proprietary/etc/firmware/wlan/grippower.info:system/etc/firmware/wlan/grippower.info \
-    vendor/samsung/gtaxllte/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
-    vendor/samsung/gtaxllte/proprietary/etc/firmware/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/WCNSS_cfg.dat \
     vendor/samsung/gtaxllte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/gtaxllte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/gtaxllte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
