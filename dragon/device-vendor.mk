@@ -33,6 +33,3 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
     vendor/google/dragon/proprietary/lib64/libvulkan.so:system/lib64/libvulkan.so
 
-PRODUCT_COPY_FILES += \
-    vendor/google/dragon/proprietary/lib/hw/hwcomposer.drm.so:system/lib/hw/hwcomposer.drm.so \
-    vendor/google/dragon/proprietary/lib64/hw/hwcomposer.drm.so:system/lib64/hw/hwcomposer.drm.so
