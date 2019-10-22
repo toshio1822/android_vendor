@@ -37,8 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/vendor/secapp/020a0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/secapp/020a0000000000000000000000000000.drbin \
     vendor/samsung/manta/proprietary/vendor/secapp/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/secapp/07060000000000000000000000000000.tlbin \
     vendor/samsung/manta/proprietary/vendor/secapp/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_VENDOR)/secapp/ffffffff000000000000000000000005.tlbin \
-    vendor/samsung/manta/proprietary/vendor/lib/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/samsung/manta/proprietary/vendor/lib/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/samsung/manta/proprietary/vendor/firmware/fw_bcmdhd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin \
     vendor/samsung/manta/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin
 
