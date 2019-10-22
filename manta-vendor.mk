@@ -42,23 +42,23 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/manta/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
-    vendor/samsung/manta/proprietary/vendor/lib/libstlport.so:system/lib/libstlport.so \
-    vendor/samsung/manta/proprietary/vendor/lib/libgpsd-compat.so:system/lib/libgpsd-compat.so
+    vendor/samsung/manta/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
+    vendor/samsung/manta/proprietary/vendor/lib/libgpsd-compat.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgpsd-compat.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/manta/proprietary/system/lib/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.VP8.Decoder.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/manta/proprietary/system/lib/libcsc.so:system/lib/libcsc.so \
-    vendor/samsung/manta/proprietary/system/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    vendor/samsung/manta/proprietary/system/lib/libexynosutils.so:system/lib/libexynosutils.so \
-    vendor/samsung/manta/proprietary/system/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so
+    vendor/samsung/manta/proprietary/system/lib/libcsc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcsc.so \
+    vendor/samsung/manta/proprietary/system/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosgscaler.so \
+    vendor/samsung/manta/proprietary/system/lib/libexynosutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosutils.so \
+    vendor/samsung/manta/proprietary/system/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexynosv4l2.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/manta/proprietary/system/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/samsung/manta/proprietary/system/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
-    vendor/samsung/manta/proprietary/system/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so
+    vendor/samsung/manta/proprietary/system/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
+    vendor/samsung/manta/proprietary/system/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptXHD_encoder.so \
+    vendor/samsung/manta/proprietary/system/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libldacBT_enc.so
