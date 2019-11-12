@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
 # Nvidia blob(s) necessary for Dragon hardware
 PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
+    vendor/google/dragon/proprietary/etc/permissions/privapp-permissions-dragon.xml:system/etc/permissions/privapp-permissions-dragon.xml \
     vendor/google/dragon/proprietary/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/google/dragon/proprietary/lib/libkeymaster_staging.so:system/lib/libkeymaster_staging.so \
     vendor/google/dragon/proprietary/lib64/libkeymaster_staging.so:system/lib64/libkeymaster_staging.so
