@@ -983,4 +983,5 @@ PRODUCT_PACKAGES += \
     uceShimService \
     dpmserviceapp \
     ims \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    HotwordEnrollmentOKGoogleHEXAGON
