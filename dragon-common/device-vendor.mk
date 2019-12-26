@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon-common/proprietary/vendor/lib/hw/camera.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.dragon.so \
     vendor/google/dragon-common/proprietary/vendor/lib/hw/gatekeeper.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.dragon.so \
     vendor/google/dragon-common/proprietary/vendor/lib/hw/gralloc.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.tegra.so \
+    vendor/google/dragon-common/proprietary/vendor/lib/hw/keystore.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.dragon.so \
     vendor/google/dragon-common/proprietary/vendor/lib/hw/memtrack.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.dragon.so \
     vendor/google/dragon-common/proprietary/vendor/lib/hw/ts.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/ts.default.so \
     vendor/google/dragon-common/proprietary/vendor/lib/hw/vulkan.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.tegra.so \
@@ -135,6 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon-common/proprietary/vendor/lib64/egl/libGLESv2_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_tegra.so \
     vendor/google/dragon-common/proprietary/vendor/lib64/hw/gatekeeper.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.dragon.so \
     vendor/google/dragon-common/proprietary/vendor/lib64/hw/gralloc.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.tegra.so \
+    vendor/google/dragon-common/proprietary/vendor/lib64/hw/keystore.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.dragon.so \
     vendor/google/dragon-common/proprietary/vendor/lib64/hw/memtrack.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.dragon.so \
     vendor/google/dragon-common/proprietary/vendor/lib64/hw/vulkan.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.tegra.so \
     vendor/google/dragon-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
