@@ -1,5 +1,5 @@
 multiCameraEnable=TRUE
-logInfoMask=0x10098
+logInfoMask=0x10080
 overrideLogLevels=0x1F
 disablePDAF=FALSE
 disableFocusIndication=1
@@ -28,3 +28,4 @@ FDPreProcessing=GTM
 tintlessEnable=TRUE
 isDynamicEFL35mmEnabled=TRUE
 enableMoonOffset=TRUE
+gyroSensorSamplingRate=416

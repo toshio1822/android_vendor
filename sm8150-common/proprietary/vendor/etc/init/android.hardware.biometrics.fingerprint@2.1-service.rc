@@ -4,7 +4,7 @@ service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.
     # /data is mounted.
     class late_start
     user system
-    group system input
+    group system input uhid
 
 on init
     # Goodix fingerprint
@@ -42,6 +42,7 @@ on post-fs-data
     mkdir /data/vendor/syna/ist/ 0770 system system
     mkdir /data/vendor/fpc 0770 system system
     mkdir /data/vendor/goodix 0770 system system
+    mkdir /mnt/vendor/persist/goodix 0770 system system
 
 on property:vendor.fps_hal.restartimes=max
     stop vendor.fps_hal
