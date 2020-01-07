@@ -28,4 +28,3 @@ FDPreProcessing=GTM
 tintlessEnable=TRUE
 isDynamicEFL35mmEnabled=TRUE
 enableMoonOffset=TRUE
-gyroSensorSamplingRate=416
