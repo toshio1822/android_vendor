@@ -202,6 +202,3 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon-common/proprietary/vendor/firmware/nvidia/tegra210/vic.bin:root/vendor/firmware/nvidia/tegra210/vic.bin \
     vendor/google/dragon-common/proprietary/vendor/firmware/nvidia/tegra210/xusb.bin:root/vendor/firmware/nvidia/tegra210/xusb.bin
 
-PRODUCT_COPY_FILES += \
-    vendor/google/dragon-common/proprietary/vendor/lib/hw/hwcomposer.drm.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.drm.so \
-    vendor/google/dragon-common/proprietary/vendor/lib64/hw/hwcomposer.drm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.drm.so
